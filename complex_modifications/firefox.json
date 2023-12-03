@@ -434,6 +434,79 @@
                     ]
                 }
             ]
+        },
+
+
+
+
+        {
+            "description": "Firefox: bw",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "u",
+                        "modifiers": {
+                            "mandatory":[
+                                "caps_lock",
+                                "right_shift"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "y",
+                            "modifiers": [
+                                "left_option",
+                                "left_shift"
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "frontmost_application_if",
+                            "bundle_identifiers": [
+                                "^org\\.mozilla\\.firefox$"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "u",
+                        "modifiers": {
+                            "mandatory":[
+                                "left_command",
+                                "right_shift"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "y",
+                            "modifiers": [
+                                "left_option",
+                                "left_shift"
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "frontmost_application_if",
+                            "bundle_identifiers": [
+                                "^org\\.mozilla\\.firefox$"
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
