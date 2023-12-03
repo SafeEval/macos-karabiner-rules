@@ -1,0 +1,21 @@
+{
+    "title": "Global default rules (place last)",
+    "rules": [
+        {
+            "description": "Global default: capslock as command (place last)",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "caps_lock"
+                    },
+                    "to": [
+                        {
+                            "key_code": "left_command"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
