@@ -244,10 +244,11 @@
                         "key_code": "i",
                         "modifiers": {
                             "mandatory": [
-                                "left_shift"
+                                "left_shift",
+                                "caps_lock"
                             ],
                             "optional": [
-                                "caps_lock"
+                                "any"
                             ]
                         }
                     },
@@ -275,10 +276,11 @@
                         "key_code": "i",
                         "modifiers": {
                             "mandatory": [
-                                "right_shift"
+                                "right_shift",
+                                "caps_lock"
                             ],
                             "optional": [
-                                "caps_lock"
+                                "any"
                             ]
                         }
                     },
