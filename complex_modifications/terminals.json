@@ -2,50 +2,6 @@
     "title": "Terminals",
     "rules": [
 
-
-
-        {
-            "description": "Terminal: switch workspace with command + shift + h/l (place first)",
-            "manipulators": [
-                {
-                    "type": "basic",
-                    "from": {
-                        "key_code": "h",
-                        "modifiers": {
-                            "required": [
-                                "left_command",
-                                "left_shift"
-                            ]
-                        }
-                    },
-                    "to": [
-                        {
-                            "key_code": "left_command"
-                        }
-                    ]
-                },
-                {
-                    "type": "basic",
-                    "from": {
-                        "key_code": "l",
-                        "modifiers": {
-                            "required": [
-                                "left_command",
-                                "left_shift"
-                            ]
-                        }
-                    },
-                    "to": [
-                        {
-                            "key_code": "left_command"
-                        }
-                    ]
-                }
-            ]
-        },
-
-
-
         {
             "description": "Terminal: capslock as control",
             "manipulators": [
